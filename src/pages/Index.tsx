@@ -110,7 +110,7 @@ const Index = () => {
     { 
       number: '02', 
       title: 'Диагностика', 
-      description: 'Приезжаю на место, осматриваю авто и определяю объём работ' 
+      description: 'Принимаю авто в гараже, осматриваю и определяю объём работ' 
     },
     { 
       number: '03', 
@@ -130,7 +130,7 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
             <Icon name="Car" className="text-primary" size={32} />
-            <span className="text-xl md:text-2xl font-bold text-primary">Автосервис на дому</span>
+            <span className="text-xl md:text-2xl font-bold text-primary">Автосервис в моём гараже</span>
           </div>
           <nav className="hidden md:flex gap-6">
             <a href="#services" className="hover:text-primary transition-colors">Услуги</a>
@@ -153,15 +153,15 @@ const Index = () => {
         
         <div className="container mx-auto px-4 relative z-10 text-center">
           <Badge className="mb-6 text-base px-4 py-2" variant="outline">
-            <Icon name="MapPin" size={16} className="mr-2" />
-            Выезд на дом
+            <Icon name="Warehouse" size={16} className="mr-2" />
+            Ремонт в гараже
           </Badge>
           <h1 className="text-4xl md:text-7xl font-bold mb-6 text-foreground leading-tight">
-            Ремонт автомобилей<br />на дому
+            Ремонт автомобилей<br />в моём гараже
           </h1>
           <p className="text-lg md:text-2xl mb-8 text-muted-foreground max-w-3xl mx-auto">
             Профессиональный ремонт двигателей, ходовой части и тормозной системы. 
-            Приезжаю к вам — вам не нужно никуда ехать.
+            Приезжайте в мой гараж — здесь есть всё необходимое для качественного ремонта.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button size="lg" className="text-lg px-8" asChild>
@@ -180,7 +180,7 @@ const Index = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 mt-16 max-w-4xl mx-auto">
             {[
-              { icon: 'Home', label: 'Выезд на дом' },
+              { icon: 'Warehouse', label: 'Ремонт в гараже' },
               { icon: 'ShieldCheck', label: 'Гарантия на работу' },
               { icon: 'Clock', label: 'Быстрое выполнение' },
               { icon: 'Wallet', label: 'Честные цены' }
@@ -366,7 +366,7 @@ const Index = () => {
               </div>
               <h3 className="text-2xl font-bold mb-2">Виталий</h3>
               <p className="text-muted-foreground text-lg">
-                Автомеханик с опытом работы. Специализируюсь на японских автомобилях Honda и Toyota.
+                Автомеханик с опытом работы. Принимаю автомобили в своём гараже. Специализируюсь на японских автомобилях Honda и Toyota.
               </p>
             </div>
             
@@ -418,10 +418,10 @@ const Index = () => {
         <div className="container mx-auto px-4 text-center">
           <div className="flex items-center justify-center gap-2 mb-4">
             <Icon name="Car" size={32} />
-            <span className="text-2xl font-bold">Автосервис на дому</span>
+            <span className="text-2xl font-bold">Автосервис в гараже</span>
           </div>
           <p className="text-secondary-foreground/80 mb-4">
-            Профессиональный ремонт автомобилей с выездом на дом
+            Профессиональный ремонт автомобилей в моём гараже
           </p>
           <div className="flex gap-6 justify-center mb-6">
             <a href="tel:89294390444" className="hover:text-accent transition-colors">
